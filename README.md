@@ -28,6 +28,7 @@ A python script to check batch result from [https:\\iporesult.cdsc.com.np](https
 
 ```py autocheck.py```
 
-## Note:
 
+
+P.S.
 Kinda my first project. Any contribution is greatly appreciated.
