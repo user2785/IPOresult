@@ -18,7 +18,7 @@ A python script to check batch result from [https:\\iporesult.cdsc.com.np](https
 
 3. Run bat_files/Edit_boid.bat and follow instructions or
 
-```py add_boid.py```
+```py boid_add.py```
 
 4. run bat_files/Select_browser.bat or
 
