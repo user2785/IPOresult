@@ -22,6 +22,6 @@ run bat_files/select_browser.bat
 
 run bat_files/autocheck.bat 
 
-##Note:
+## Note:
 
 Kinda my first project. Any contribution is appreciated
