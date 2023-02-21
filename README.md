@@ -5,15 +5,16 @@ A python script to check batch result from [https:\\iporesult.cdsc.com.np](https
 ## Requirements
 1. Python
 2. One of the browser Firefox/Chrome/Edge
-3. Windows system
+3. Windows Operating System
 
 ## Usage
-Copy repository to local device 
+Clone this project
 
-run 
+```  git clone https://github.com/morphhyy/ipoResult.git```
 
-'''pip install -r requirements.txt''' 
+Install the required dependencies.
 
+```pip install -r requirements.txt```
 
 run bat_files/add_boid.bat and follow instructions 
 
