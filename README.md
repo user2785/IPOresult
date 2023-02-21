@@ -21,3 +21,7 @@ run bat_files/add_boid.bat and follow instructions
 run bat_files/select_browser.bat 
 
 run bat_files/autocheck.bat 
+
+##Note:
+
+Kinda my first project. Any contribution is appreciated
