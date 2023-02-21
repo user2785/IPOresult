@@ -8,19 +8,25 @@ A python script to check batch result from [https:\\iporesult.cdsc.com.np](https
 3. Windows Operating System
 
 ## Usage
-Clone this project
+1. Clone this project
 
-```  git clone https://github.com/morphhyy/ipoResult.git```
+```git clone https://github.com/morphhyy/ipoResult.git```
 
-Install the required dependencies.
+2. Install the required dependencies.
 
 ```pip install -r requirements.txt```
 
-run bat_files/add_boid.bat and follow instructions 
+3. Run bat_files/add_boid.bat and follow instructions or
 
-run bat_files/select_browser.bat 
+```py add_boid.py```
 
-run bat_files/autocheck.bat 
+4. run bat_files/select_browser.bat or
+
+```py webdriver.py```
+
+5. run bat_files/autocheck.bat or
+
+```py autocheck.py```
 
 ## Note:
 
