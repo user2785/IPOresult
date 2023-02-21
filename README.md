@@ -16,15 +16,15 @@ A python script to check batch result from [https:\\iporesult.cdsc.com.np](https
 
 ```pip install -r requirements.txt```
 
-3. Run bat_files/add_boid.bat and follow instructions or
+3. Run bat_files/Edit_boid.bat and follow instructions or
 
 ```py add_boid.py```
 
-4. run bat_files/select_browser.bat or
+4. run bat_files/Select_browser.bat or
 
 ```py webdriver.py```
 
-5. run bat_files/autocheck.bat or
+5. run bat_files/Iporesult.bat or
 
 ```py autocheck.py```
 
