@@ -28,8 +28,6 @@ A python script to check batch result from [https:\\iporesult.cdsc.com.np](https
 
 ```py autocheck.py```
 
-Preview of Result:
-![preview of Results in excel](https://imgur.com/a/vfAmBtH)
 
 
 P.S.
