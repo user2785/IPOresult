@@ -24,4 +24,4 @@ run bat_files/autocheck.bat
 
 ## Note:
 
-Kinda my first project. Any contribution is appreciated
+Kinda my first project. Any contribution is greatly appreciated.
