@@ -1,6 +1,6 @@
 # IPOresult
 
-A python script to check batch result from https:\\iporesult.cdsc.com.np
+A python script to check batch result from [https:\\iporesult.cdsc.com.np](https:\\iporesult.cdsc.com.np)
 
 ## Requirements
 1. Python
@@ -10,7 +10,10 @@ A python script to check batch result from https:\\iporesult.cdsc.com.np
 ## Usage
 Copy repository to local device 
 
-run pip install -r requirements.txt 
+run 
+
+'''pip install -r requirements.txt''' 
+
 
 run bat_files/add_boid.bat and follow instructions 
 
