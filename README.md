@@ -10,7 +10,7 @@ A python script to check batch result from [https:\\iporesult.cdsc.com.np](https
 ## Usage
 1. Clone this project
 
-```git clone https://github.com/morphhyy/ipoResult.git```
+```git clone https://github.com/user2785/IPOresult.git
 
 2. Install the required dependencies.
 
