@@ -3,6 +3,7 @@ import openpyxl
 import urllib.request as urllib_request
 from colorama import Fore, Style
 import re
+import os
 
 def load_boid(filename):
     with open(filename, "rb") as file:
@@ -11,10 +12,13 @@ def load_boid(filename):
 
 # Function to clear lines
 def clear_line(n=1):
-    LINE_UP = '\033[1A'
-    LINE_CLEAR = '\x1b[2K'
-    for i in range(n):
-        print(LINE_UP, end=LINE_CLEAR)
+    if os.name == 'nt':
+        LINE_UP = '\033[1A'
+        LINE_CLEAR = '\x1b[2K'
+        for i in range(n):
+            print(LINE_UP, end=LINE_CLEAR)
+    else:
+        pass
     
 
 def import_excel(filename): 
