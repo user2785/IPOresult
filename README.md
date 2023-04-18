@@ -26,6 +26,6 @@ A python script to check batch result from [https:\\iporesult.cdsc.com.np](https
    ``py autocheck.py``
 
 ## Note:
-1. All results are stored in results.xlsx
+1. All results are stored in "data/results.xlsx"
 
 
