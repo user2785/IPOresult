@@ -15,10 +15,9 @@ data = load_boid("data/boid.pkl")
 print("Starting Browser...",end='')
 url = "https://iporesult.cdsc.com.np"
 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 os.environ['WDM_LOG_LEVEL'] = '0'
-warnings.simplefilter(action='ignore')
-logging.getLogger('tensorflow').setLevel(logging.ERROR)
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+warnings.filterwarnings("ignore")
 
 init(convert=True, autoreset=True)
 browser_open(url) # Call browser_open function
