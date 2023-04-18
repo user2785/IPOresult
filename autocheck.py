@@ -15,7 +15,7 @@ data = load_boid("data/boid.pkl")
 print("Starting Browser...",end='')
 url = "https://iporesult.cdsc.com.np"
 silence_tensorflow()
-warnings.filterwarnings("ignore", category=FutureWarning, module="numpy")
+warnings.filterwarnings("ignore")
 #logging.disable(logging.CRITICAL)
 #logging.getLogger("cc").setLevel(logging.ERROR)
 #os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
