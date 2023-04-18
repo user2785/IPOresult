@@ -3,7 +3,7 @@ print("Loading Modules....", end='')
 from utils.browsers import *
 from utils.func import *
 import warnings
-from silence_tensorflow import silence_tensorflow
+import logging
 from colorama import init
 import os
 print('..completed')
@@ -14,18 +14,16 @@ data = load_boid("data/boid.pkl")
 
 print("Starting Browser...",end='')
 url = "https://iporesult.cdsc.com.np"
-silence_tensorflow()
-warnings.filterwarnings("ignore")
-#logging.disable(logging.CRITICAL)
-#logging.getLogger("cc").setLevel(logging.ERROR)
-#os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
 os.environ['WDM_LOG_LEVEL'] = '0'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+warnings.filterwarnings("ignore")
 
 init(convert=True, autoreset=True)
 browser_open(url) # Call browser_open function
 
 
-p,count,iter = -1, 0, 1
+p,count, iter = -1, 0, 1
 
 
 while True:
@@ -39,6 +37,7 @@ while True:
                 exit()
             continue
         p = int(p)
+        check_all = 0
         if int(p) == 0:
             check_all = range(1,len(option))
         elif int(p) == None:
