@@ -9,20 +9,23 @@ A python script to check batch result from [https:\\iporesult.cdsc.com.np](https
 
 `` git clone https://github.com/user2785/IPOresult.git ``
 
-2. Install the required dependencies.
+2. Install the required dependencies.         
 
-``pip install -r requirements.txt``
+   ``pip install -r requirements.txt``
 
-3. Run bat_files/Edit_boid.bat and follow instructions or
+3. Run "bat_files/Edit_boid.bat" or               
+  
+    ``py boid_add.py``    
 
-``py boid_add.py``
+4. run "bat_files/Select_browser.bat" or
 
-4. run bat_files/Select_browser.bat or
+   ``py webdriver.py``
 
-``py webdriver.py``
+5. run "bat_files/Iporesult.bat" or
 
-5. run bat_files/Iporesult.bat or
+   ``py autocheck.py``
 
-``py autocheck.py``
+## Note:
+1. All results are stored in results.xlsx
 
 
