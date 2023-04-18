@@ -1,0 +1,10 @@
+CaptchaCracker==0.0.6
+colorama==0.4.4
+numpy==1.24.2
+openpyxl==3.1.1
+Pillow==9.5.0
+selenium==4.8.3
+silence_tensorflow==1.2.1
+tensorflow==2.12.0
+tensorflow_intel==2.11.0
+webdriver_manager==3.8.5
