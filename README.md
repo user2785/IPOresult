@@ -1,6 +1,6 @@
 # IPOresult
 
-A python script to check batch result from [https:\\\iporesult.cdsc.com.np](https:\\iporesult.cdsc.com.np)
+A python script to check batch result from [https://iporesult.cdsc.com.np](https://iporesult.cdsc.com.np)
 
 
 ## Usage
