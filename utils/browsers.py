@@ -72,7 +72,6 @@ def check(client_boid, client_name, iteration):
             print(client_name + " : " + client_boid + " is incorrect. Correct before continue")
             close_all()  
     if iteration == 1:
-        #thread.join()
         iteration = 0
     while True:
         save_img()  # Function to save captcha_element to file
@@ -83,7 +82,12 @@ def check(client_boid, client_name, iteration):
 
         browser.find_element(By.XPATH,
                 "/html/body/app-root/app-allotment-result/div/div/div/div/form/button").click()
-        sleep(0.3)
+        try:
+            WebDriverWait(browser, 10).until(ec.presence_of_element_located((
+                    By.XPATH,"/html/body/app-root/app-allotment-result/div/div/div/div/form/p")
+                    ))
+        except:
+            sleep(0.3)
         try:       
             result = browser.find_element(By.XPATH,
                         "/html/body/app-root/app-allotment-result/div/div/div/div/form/p[1]").text
