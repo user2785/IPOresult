@@ -53,7 +53,7 @@ while True:
             # Check Result
             for boid, name in data.items():
                 if check_in_excel(sheet, boid, selected_company) == False :
-                    result = check(boid, name, iter)
+                    result = check(boid, name, iter)  # Call check function
                     iter = 0
                     allotted = re_compile(result)   # Call re_compile function
                     print_result(allotted, name)  # Call print_result function
